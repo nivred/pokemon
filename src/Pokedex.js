@@ -24,4 +24,4 @@ class Pokedex extends Component {
   }
 }
 
-export default Pokedex
+export default Pokedex;
