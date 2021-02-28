@@ -6,10 +6,15 @@
   text-align: center;
   background-color: white;
   border-radius: 8px;
-}
 
-.Pokecard-data {
-  font-size: 80%;
+  & img {
+    transition: all ease 500ms;
+  }
+
+  & img:hover {
+    transform: scale(1.25);
+    opacity: 0.7;
+  }
 }
 
 .Pokecard-title {
@@ -28,11 +33,6 @@
   margin-bottom: 1rem;
 }
 
-.Pokecard img {
-  transition: all ease 500ms;
-}
-
-.Pokecard img:hover {
-  transform: scale(1.25);
-  opacity: 0.7;
+.Pokecard-data {
+  font-size: 80%;
 }
